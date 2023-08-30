@@ -3,14 +3,21 @@ body{
 }
 
 .navbar{
-    text-align: center;
-    margin-top: 1rem;
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: black;
+    justify-content: center;
+}
+
+.small_logo{
+    justify-self: start;
 }
 
 .navbar a{
     text-decoration: none;
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 1rem;
 }
 
