@@ -1,27 +1,29 @@
 {
     "Books": [
         {
-            "Name": "How to Train Your Dragon",
+            "Title": "How to Train Your Dragon",
             "Author": "Cressida Cowell",
             "Cover": "book_imgs/httyd.jpg"                         
         },
 
         {
-            "Name": "Howl's Moving Caste",
+            "Title": "Howl's Moving Caste",
             "Author": "Diana Wynne Jones",
             "Cover": "book_imgs/howls_moving_castle.jpg"                         
         },
 
         {
-            "Name": "Mythos",
+            "Title": "Mythos",
             "Author": "Stephen Fry",
-            "Cover": "book_imgs/mythos"                         
+            "Cover": "book_imgs/mythos.jpg"                         
         },
 
         {
-            "Name": "Exhalation",
+            "Title": "Exhalation",
             "Author": "Ted Chiang",
-            "Cover": "book_imgs/exhalations.jpg"                         
+            "Cover": "book_imgs/exhalation.jpg"                         
         }
-    ]
+    ],
+
+    "Albums": {}
 }

@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     fetch("EldenThings.json")
         .then(response => response.json())
