@@ -1,3 +1,12 @@
 fetch("data.json")
     .then(response => response.json())
-    .then(values => values.forEach(value => console.log(value)))
+    .then(books => {
+        books.Books.forEach(book => console.log(book))
+
+        const book_reviews = document.getElementById("book_reviews")
+
+    })
+    
+    .catch(error => {
+        console.error("sämst bruh")
+    })
