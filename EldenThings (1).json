@@ -1,0 +1,42 @@
+{
+  "Elden": {
+    "eldenThings": [
+      {
+        "Name": "Banished Knight Greatsword",
+        "Type": "Weapon",
+        "Description": "A finely-crafted greatsword intricately engraved with an ancient motif. Given to knights who, whether by misfortune or misdeed, were forced to abandon their homes. Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/banished_knights_greatsword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "Name": "Horned Warrior Ashes",
+        "Type": "Spirit Ash",
+        "Description": "Ashen remains in which spirits yet dwell. Use to summon the spirit of a horned warrior. This heavily-armored guardian spirit of the tower attained inhuman strength through divine invocation, and wields a curved greatsword that brings horns to bear on its foes.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/horned_warrior_ashes_spirit_ash_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "Name": "Rellana’s Twin Moons",
+        "Type": "Sorcery",
+        "Description": "Sorcery of Rellana, the Twin Moon Knight. Associated with a Carian princes. Incarnate overlapping twin moons which strike the ground one after the other, violently shaking the earth with moonlight. In her childhood, she and her elder sister Rennala met these moons. Overlapping, as though nestled against one another.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellanas_twin_moons_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "Name": "Curseblade's Cirque",
+        "Type": "Weapon",
+        "Description": "Weapon of the masked Curseblades. Circular backhand blade with wave-like cutting edges, sharpened into points that incite blood loss. Long ago, this was employed by the ascetics who strove to become tutelary deities as a ritualistic object in their self-flagellating dances.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/curseblades_cirque_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "Name": "Gourmet Scorpion Stew (2)",
+        "Type": "Consumables",
+        "Description": "Scorpion simmered in a black soup. An exquisite dish chock-full of mouth-watering scorpion claws. Boosts physical damage negation temporarily and gradually restores a great amount of HP. The thoughts and feelings of the cook melt and blend into the stew, but those who can distinguish the taste of love are few and far between.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gourmet_scorpion_stew_consumable_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "Name": "Ash of War: Dryleaf Whirlwind",
+        "Type": "Ashes of War",
+        "Description": "Dryleaf Whirlwind: This skill represents the pinnacle of Dane's footwork-based martial artistry. Rise into the air with a series of spinning kicks before crashing down with one final strike. Imbues kicking attacks with energy, increasing their range.",
+        "photo": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ash_of_war_dryleaf_whirlwind_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      }
+    ]
+  }
+}
