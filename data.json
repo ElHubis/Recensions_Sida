@@ -25,5 +25,41 @@
         }
     ],
 
-    "Albums": {}
+    "Albums": [
+        {
+            "Title": "My Beatiful Dark Twisted Fantasy",
+            "Artist": "Kanye West",
+            "Cover": "music_imgs/mbdtf.jpg"
+        },
+
+        {
+            "Title": "Discovery",
+            "Artist": "Daft Punk",
+            "Cover": "music_imgs/Discovery.png" 
+        },
+
+        {
+            "Title": "Abbey Road",
+            "Artist": "Beatles",
+            "Cover": "music_imgs/Abbey_Road.jpg" 
+        },
+
+        {
+            "Title": "Melophobia",
+            "Artist": "Cage The Elephant",
+            "Cover": "music_imgs/Melophobia.jpg" 
+        },
+
+        {
+            "Title": "Plastic Beach",
+            "Artist": "Kanye West",
+            "Cover": "music_imgs/plastic_beach.jpg" 
+        },
+
+        {
+            "Title": "My Beatiful Dark Twisted Fantasy",
+            "Artist": "Kanye West",
+            "Cover": "music_imgs/saturation_1.jpg" 
+        }
+    ]
 }
