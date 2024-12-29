@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", function(){
             const book_reviews = document.getElementById("book_reviews");
 
             books.Books.forEach(item => { // Creates a div for every book element
+                const bookLink = document.createElement("a");
+
                 const itemContainer = document.createElement("div");
+                bookLink.appendChild(itemContainer);
+
                 itemContainer.classList.add("book");
 
                 const coverElement = document.createElement("img");
@@ -26,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 authorElement.contentEditable = true;
                 itemContainer.appendChild(authorElement);
 
-                book_reviews.appendChild(itemContainer);
+                book_reviews.appendChild(bookLink);
                 
             });
 
