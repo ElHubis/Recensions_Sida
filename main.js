@@ -11,20 +11,27 @@ document.addEventListener("DOMContentLoaded", function(){
                 const itemContainer = document.createElement("div");
                 itemContainer.classList.add("book");
 
+                const linkElement = document.createElement("a");
+                linkElement.href = "musik.html"
+                itemContainer.appendChild(linkElement)
+
+                const secondItemContainer = document.createElement("div");
+                linkElement.appendChild(secondItemContainer)
+
                 const coverElement = document.createElement("img");
                 coverElement.src = item.Cover;
                 coverElement.alt = item.Title;
-                itemContainer.appendChild(coverElement);
+                secondItemContainer.appendChild(coverElement);
 
                 const titleElement = document.createElement("h4");
                 titleElement.textContent = item.Title;
                 titleElement.contentEditable = true;
-                itemContainer.appendChild(titleElement);
+                secondItemContainer.appendChild(titleElement);
 
                 const authorElement = document.createElement("p");
                 authorElement.textContent = item.Author;
                 authorElement.contentEditable = true;
-                itemContainer.appendChild(authorElement);
+                secondItemContainer.appendChild(authorElement);
 
                 book_reviews.appendChild(itemContainer);
                 

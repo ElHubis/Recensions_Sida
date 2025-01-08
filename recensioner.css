@@ -60,6 +60,14 @@
     margin-top: 0.25rem;
 }
 
+.book_reviews a{
+    text-decoration: none;
+}
+
+.book_reviews a:visited{
+    color: black;
+}
+
 /*Inställningar för musik-subpage*/
 
 .music_reviews{
