@@ -1,69 +1,73 @@
 {
-"Books": [
+    "Books":[
         {
-            "Title": "How to Train Your Dragon",
-            "Author": "Cressida Cowell",
-            "Cover": "book_imgs/httyd.jpg",
-            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                         
-        },
-
-        {
-            "Title": "Howl's Moving Castle",
-            "Author": "Diana Wynne Jones",
-            "Cover": "book_imgs/howls_moving_castle.jpg",
-            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
-        },
-
-        {
-            "Title": "Mythos",
-            "Author": "Stephen Fry",
-            "Cover": "book_imgs/mythos.jpg",
-            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
-        },
-
-        {
-            "Title": "Exhalation",
-            "Author": "Ted Chiang",
-            "Cover": "book_imgs/exhalation.jpg",
-            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
+            "HTTYD": {
+                "Title": "How to Train Your Dragon",
+                "Author": "Cressida Cowell",
+                "Cover": "book_imgs/httyd.jpg",
+                "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                         
+            },
+    
+            "Howl's": {
+                "Title": "Howl's Moving Castle",
+                "Author": "Diana Wynne Jones",
+                "Cover": "book_imgs/howls_moving_castle.jpg",
+                "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
+            },
+    
+            "Mythos": {
+                "Title": "Mythos",
+                "Author": "Stephen Fry",
+                "Cover": "book_imgs/mythos.jpg",
+                "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
+            },
+    
+            "Exhalation": {
+                "Title": "Exhalation",
+                "Author": "Ted Chiang",
+                "Cover": "book_imgs/exhalation.jpg",
+                "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus facilisis massa, vel vestibulum ante porta nec. Curabitur et vestibulum mi. Phasellus id hendrerit nibh. Sed lobortis leo eget nisi fermentum sollicitudin. Integer facilisis a purus a suscipit. Aenean dictum elit non metus sollicitudin posuere. Aliquam a metus vel ante pellentesque volutpat id sit amet odio. Nunc feugiat convallis maximus. Morbi aliquam auctor luctus. Cras facilisis dictum leo, non mattis sapien tincidunt convallis. Nam blandit tortor sem, in pretium turpis vulputate sed."                           
+            }
         }
     ],    
 
     "Albums": [
         {
-            "Title": "My Beatiful Dark Twisted Fantasy",
-            "Artist": "Kanye West",
-            "Cover": "music_imgs/mbdtf.jpg"
-        },
+            "MBDTF": {
+                "Title": "My Beatiful Dark Twisted Fantasy",
+                "Artist": "Kanye West",
+                "Cover": "music_imgs/mbdtf.jpg"
+            },
 
-        {
-            "Title": "Discovery",
-            "Artist": "Daft Punk",
-            "Cover": "music_imgs/Discovery.png" 
-        },
+            "Discovery": {
+                "Title": "Discovery",
+                "Artist": "Daft Punk",
+                "Cover": "music_imgs/Discovery.png" 
+            },
 
-        {
-            "Title": "Abbey Road",
-            "Artist": "Beatles",
-            "Cover": "music_imgs/Abbey_Road.jpg" 
-        },
+            "Abbey Road": {
+                "Title": "Abbey Road",
+                "Artist": "Beatles",
+                "Cover": "music_imgs/Abbey_Road.jpg" 
+            },
 
-        {
-            "Title": "Melophobia",
-            "Artist": "Cage The Elephant",
-            "Cover": "music_imgs/Melophobia.jpg" 
-        },
+            "Melophobia": {
+                "Title": "Melophobia",
+                "Artist": "Cage The Elephant",
+                "Cover": "music_imgs/Melophobia.jpg" 
+            },
 
-        {
-            "Title": "Plastic Beach",
-            "Artist": "Kanye West",
-            "Cover": "music_imgs/plastic_beach.jpg" 
-        },
+            "Plastic Beach": {
+                "Title": "Plastic Beach",
+                "Artist": "Gorillaz",
+                "Cover": "music_imgs/plastic_beach.jpg" 
+            },
 
-        {
-            "Title": "My Beatiful Dark Twisted Fantasy",
-            "Artist": "Kanye West",
-            "Cover": "music_imgs/saturation_1.jpg" 
+            "Saturation":{
+                "Title": "Saturation",
+                "Artist": "Brockhampton",
+                "Cover": "music_imgs/saturation_1.jpg" 
+            }
         }
     ]
 }

@@ -3,16 +3,17 @@ document.addEventListener("DOMContentLoaded", function(){
         .then(response => response.json())
 
         .then(books => {
-            books.Books.forEach(book => console.log(book));
+            const items = Object.values(books.Books[0])
+            items.forEach(item => console.log(item))
 
             const book_reviews = document.getElementById("book_reviews");
 
-            books.Books.forEach(item => { // Creates a div for every book element
+            items.forEach(item => { // Creates a div for every book element
                 const itemContainer = document.createElement("div");
                 itemContainer.classList.add("book");
 
                 const linkElement = document.createElement("a");
-                linkElement.href = "musik.html"
+                linkElement.href = "subpage.html"
                 itemContainer.appendChild(linkElement)
 
                 const secondItemContainer = document.createElement("div");
@@ -43,11 +44,12 @@ document.addEventListener("DOMContentLoaded", function(){
         .then(response => response.json())
 
         .then(albums => {
-            albums.Albums.forEach(album => console.log(album));
+            const items = Object.values(albums.Albums[0])
+            items.forEach(item => console.log(item))
 
             const album_reviews = document.getElementById("music_reviews");
 
-            albums.Albums.forEach(item => { // Creates a div for every album element
+            items.forEach(item => { // Creates a div for every album element
                 const itemContainer = document.createElement("div");
                 itemContainer.classList.add("album");
 
@@ -66,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 artistElement.contentEditable = true;
                 itemContainer.appendChild(artistElement);
 
-                music_reviews.appendChild(itemContainer);
+                album_reviews.appendChild(itemContainer);
                 
             });
 
