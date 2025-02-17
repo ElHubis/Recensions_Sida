@@ -10,23 +10,30 @@ window.addEventListener("load", ()=>{
     .then(response => response.json())
 
     .then(data => {
-        document.body.innerHTML = `
-        <div class="navbar">
-            <nav>
-                <a href="index.html" class="small_logo">RЯ</a>
-                <a href="musik.html">Musik</a>
-                <a href="böcker.html">Böcker</a>
-                <a href="eget.html">Egna Texter</a>
-            </nav> 
-        </div>
-    
-        <div class="titleCard">
-            <img src="" alt="">
-            <h1>
-                ${data.Books[0].HTTYD.Title}
-            </h1>
-        </div>
-        `
+        const books = data.Books[0];
+
+        const pageTitle = `Rubens Recensioner/${books.HTTYD.Title}`;
+        document.title = pageTitle;
+
+
+        const contentContainer = document.getElementById("content_container");
+
+        const bookCover = document.createElement("img");
+        bookCover.src = books.HTTYD.Cover
+        bookCover.alt = books.HTTYD.Cover
+        contentContainer.appendChild(bookCover)
+
+        const bookTitle = document.createElement("h1");
+        bookTitle.textContent = books.HTTYD.Title;
+        contentContainer.appendChild(bookTitle);
+
+        const author = document.createElement("h3");
+        author.textContent = books.HTTYD.Author
+        contentContainer.appendChild(author)
+
+        const reviewText = document.createElement("p");
+        reviewText.textContent = books.HTTYD.Text;
+        contentContainer.appendChild(reviewText)
     })
     
 
