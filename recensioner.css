@@ -119,3 +119,21 @@
 }
 
 /*Inställningar för enskilda textrecensioner*/
+.content_container{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.content_container h1{
+    margin-top: 1rem;
+}
+
+.content_container h3{
+    margin-top: 0.5rem;
+}
+
+.content_container p{
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 20%;
+}

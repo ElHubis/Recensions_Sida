@@ -1,3 +1,10 @@
+// import { setBookVariable } from "./main.js";
+
+function setBookUrl(bookId){
+    const newUrl = `${window.location.origin}/bookreviews/${bookId}`;
+    history.pushState({bookId: bookId}, '', newUrl);
+    console.log(`URL updated to: ${newUrl}`);
+}
 
 window.addEventListener("load", ()=>{
     const pageTitle = 'Rubens Recensioner/bok';
@@ -10,11 +17,14 @@ window.addEventListener("load", ()=>{
     .then(response => response.json())
 
     .then(data => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = urlParams.get('bookId');
+        console.log(bookId); // Outputs: 123
+        
         const books = data.Books[0];
 
         const pageTitle = `Rubens Recensioner/${books.HTTYD.Title}`;
         document.title = pageTitle;
-
 
         const contentContainer = document.getElementById("content_container");
 
@@ -34,7 +44,10 @@ window.addEventListener("load", ()=>{
         const reviewText = document.createElement("p");
         reviewText.textContent = books.HTTYD.Text;
         contentContainer.appendChild(reviewText)
-    })
+    },
+    
+    console.log(bookVariable)
+)
     
 
 });

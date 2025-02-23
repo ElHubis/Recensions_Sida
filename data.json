@@ -2,6 +2,7 @@
     "Books":[
         {
             "HTTYD": {
+                "Id": "HTTYD",
                 "Title": "How to Train Your Dragon",
                 "Author": "Cressida Cowell",
                 "Cover": "book_imgs/httyd.jpg",
@@ -9,6 +10,7 @@
             },
     
             "Howl's": {
+                "Id": "Howl's",
                 "Title": "Howl's Moving Castle",
                 "Author": "Diana Wynne Jones",
                 "Cover": "book_imgs/howls_moving_castle.jpg",
@@ -16,6 +18,7 @@
             },
     
             "Mythos": {
+                "Id": "Mythos",
                 "Title": "Mythos",
                 "Author": "Stephen Fry",
                 "Cover": "book_imgs/mythos.jpg",
@@ -23,6 +26,7 @@
             },
     
             "Exhalation": {
+                "Id": "Exhalation",
                 "Title": "Exhalation",
                 "Author": "Ted Chiang",
                 "Cover": "book_imgs/exhalation.jpg",

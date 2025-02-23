@@ -1,10 +1,23 @@
+export {setBookVariable};
+
+function setBookVariable(element){
+    let bookVariable = element.getAttribute("id");
+    console.log(bookVariable);
+}
+
+function setBookUrl(bookId){
+    const newUrl = `${window.location.origin}/bookreviews/${bookId}`;
+    history.pushState({bookId: bookId}, '', newUrl);
+    console.log(`URL updated to: ${newUrl}`);
+}
+
 document.addEventListener("DOMContentLoaded", function(){
     fetch("data.json")
         .then(response => response.json())
 
         .then(books => {
-            const items = Object.values(books.Books[0])
-            items.forEach(item => console.log(item))
+            const items = Object.values(books.Books[0]);
+            // items.forEach(item => console.log(item));
 
             const bookReviews = document.getElementById("book_reviews");
 
@@ -13,11 +26,13 @@ document.addEventListener("DOMContentLoaded", function(){
                 itemContainer.classList.add("book");
 
                 const linkElement = document.createElement("a");
-                linkElement.href = "subpage.html"
-                itemContainer.appendChild(linkElement)
+                linkElement.href = "subpage.html";
+                linkElement.id = item.Id;
+                linkElement.onclick = function() {setBookUrl(linkElement.id);}
+                itemContainer.appendChild(linkElement);
 
                 const secondItemContainer = document.createElement("div");
-                linkElement.appendChild(secondItemContainer)
+                linkElement.appendChild(secondItemContainer);
 
                 const coverElement = document.createElement("img");
                 coverElement.src = item.Cover;
@@ -36,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
                 bookReviews.appendChild(itemContainer);
                 
-            });
+            }
+        );
 
         })
 
@@ -44,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function(){
         .then(response => response.json())
 
         .then(albums => {
-            const items = Object.values(albums.Albums[0])
-            items.forEach(item => console.log(item))
+            const items = Object.values(albums.Albums[0]);
+            // items.forEach(item => console.log(item));
 
             const albumReviews = document.getElementById("music_reviews");
 
