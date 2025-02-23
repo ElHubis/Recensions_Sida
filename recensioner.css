@@ -62,6 +62,7 @@
 
 .book_reviews a{
     text-decoration: none;
+    color: black;
 }
 
 .book_reviews a:visited{
@@ -136,4 +137,8 @@
     margin-top: 2rem;
     width: 60%;
     margin-left: 20%;
+}
+
+.content_container img{
+    width: 12rem;
 }

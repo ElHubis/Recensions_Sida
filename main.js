@@ -1,17 +1,18 @@
-export {setBookVariable};
+// export {setBookVariable};
+// export {currentBookId}
 
-function setBookVariable(element){
+function setBookId(element) {
     let bookVariable = element.getAttribute("id");
     console.log(bookVariable);
 }
 
-function setBookUrl(bookId){
+function setBookUrl(bookId) {
     const newUrl = `${window.location.origin}/bookreviews/${bookId}`;
-    history.pushState({bookId: bookId}, '', newUrl);
+    history.pushState({ bookId: bookId }, '', newUrl);
     console.log(`URL updated to: ${newUrl}`);
 }
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
     fetch("data.json")
         .then(response => response.json())
 
@@ -24,11 +25,20 @@ document.addEventListener("DOMContentLoaded", function(){
             items.forEach(item => { // Creates a div for every book element
                 const itemContainer = document.createElement("div");
                 itemContainer.classList.add("book");
+                
+                // href = "subpage.html?id=${item.Id}"
+                // https://stackoverflow.com/questions/406192?arg1=value1&arg2=value2#death
+                // URLSearchParams() -> {arg1: value1, arg2: value2}
 
+                // const urlParams = new URLSearchParams(window.location.search);
+                // const bookId = urlParams.get('bookId');
+
+                // const args = urlParams.getAll() // = {bookId: 123}
+                // args.bookId
+                // console.log(bookId); // Outputs: 123
+                
                 const linkElement = document.createElement("a");
-                linkElement.href = "subpage.html";
-                linkElement.id = item.Id;
-                linkElement.onclick = function() {setBookUrl(linkElement.id);}
+                linkElement.href = `subpage.html?bookId=${item.Id}`;
                 itemContainer.appendChild(linkElement);
 
                 const secondItemContainer = document.createElement("div");
@@ -50,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function(){
                 secondItemContainer.appendChild(authorElement);
 
                 bookReviews.appendChild(itemContainer);
-                
+
             }
-        );
+            );
 
         })
 
@@ -85,11 +95,11 @@ document.addEventListener("DOMContentLoaded", function(){
                 itemContainer.appendChild(artistElement);
 
                 albumReviews.appendChild(itemContainer);
-                
+
             });
 
         })
-        
+
         .catch(error => {
             console.error("sämst bruh");
         })
