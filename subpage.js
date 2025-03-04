@@ -9,10 +9,8 @@ window.addEventListener("load", ()=>{
 
 // 
 // books.HTTYD.Title
-// ==
 // const bookId = "HTTYD"
 // books[bookId].Title
-
 
 window.addEventListener("load", ()=>{
     fetch("data.json")
